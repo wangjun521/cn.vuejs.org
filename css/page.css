@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"), url("/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Light"), url("/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Semibold"), url("/fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: local("Roboto Mono"), url("/fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
 .gutter pre {
   color: #999;
 }
@@ -385,7 +403,7 @@ body.docs #nav {
   font-size: 1.5em;
   line-height: 40px;
   color: #2c3e50;
-  font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 500;
 }
 #logo img {
@@ -811,7 +829,7 @@ ul.demo li {
   text-align: center;
   line-height: 20px;
   font-weight: bold;
-  font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
 }
 .content p.tip code {
