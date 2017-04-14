@@ -75,7 +75,7 @@ vm.$watch('a', function (newVal, oldVal) {
 
 <p class="tip">注意，不要在实例属性或者回调函数中（如 `vm.$watch('a', newVal => this.myMethod())`）使用[箭头函数](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)。因为箭头函数绑定父上下文，所以 `this` 不会像预想的一样是 Vue 实例，而是 `this.myMethod` 未被定义。</p>
 
-实例属性和方法的完整列表中查阅 [API 参考](../api)。
+实例属性和方法的完整列表可查阅 [API 参考](../api)。
 
 ## 实例生命周期
 
@@ -99,7 +99,7 @@ var vm = new Vue({
 
 ## 生命周期图示
 
-下图说明了实例的生命周期。你不需要立马弄明白所有的东西，不过以后它会有帮助。
+下图说明了实例的生命周期。你不需要立马弄明白所有的东西，不过以后它会有所帮助。
 
 ![Lifecycle](/images/lifecycle.png)
 
